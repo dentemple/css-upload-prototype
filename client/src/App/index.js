@@ -1,5 +1,9 @@
 import React, { useEffect } from "react";
-import "./App.css";
+import { Switch, Route } from "react-router-dom";
+
+import Header from "../components/Header";
+import HomePage from "../components/HomePage";
+import FileUploadPage from "../components/FileUploadPage";
 
 function App() {
   useEffect(() => {
@@ -9,9 +13,17 @@ function App() {
   });
 
   return (
-    <div className="App">
-      <p>Home</p>
-    </div>
+    <>
+      <Header />
+      <Switch>
+        <Route exact path="/customize">
+          <FileUploadPage />
+        </Route>
+        <Route path="/">
+          <HomePage />
+        </Route>
+      </Switch>
+    </>
   );
 }
 

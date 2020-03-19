@@ -1,13 +1,7 @@
 # Prototype
 
-`npm i`
+- `npm i` to install the dependencies
 
-`npm start`
+- `npm start` to run the project on [port 3000](http://localhost:3000/)
 
-# Prototype
-
-`npm i`
-
-`npm start`
-
-Client opens on localhost:3000.
+- Navigate to the [/customize](http://localhost:3000/customize) route to upload a custom stylesheet.

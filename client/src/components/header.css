@@ -1,0 +1,17 @@
+header,
+header > div,
+header > div > * {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+header {
+  background-color: #093981;
+  color: white;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+}

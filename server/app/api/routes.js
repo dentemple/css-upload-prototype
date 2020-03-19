@@ -5,6 +5,6 @@ router.get("/ping", (req, res) =>
   res.send({ ping: "ok", route: "/api" + req.url })
 );
 
-router.use("/uploads", require("./uploads/routes"));
+router.use("/customization", require("./customization/routes"));
 
 module.exports = router;

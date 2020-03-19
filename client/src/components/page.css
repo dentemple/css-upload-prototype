@@ -1,0 +1,34 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main > section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+section.top > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.top h2 {
+  font-size: 3.5em;
+  font-weight: 300;
+  color: #093981;
+}
+
+section.top p {
+  line-height: 0.4;
+}
+
+section.top h2 p {
+  text-align: center;
+}
